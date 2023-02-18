@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_parent",
-  "spriteId": null,
+  "name": "obj_sword_attack",
+  "spriteId": {
+    "name": "spr_sword_attack",
+    "path": "sprites/spr_sword_attack/spr_sword_attack.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,12 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_sword_attack","path":"objects/obj_sword_attack/obj_sword_attack.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Game/Enemies.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
 }

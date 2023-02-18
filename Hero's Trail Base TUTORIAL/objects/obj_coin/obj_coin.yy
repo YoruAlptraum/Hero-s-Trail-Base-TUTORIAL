@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_parent",
-  "spriteId": null,
+  "name": "obj_coin",
+  "spriteId": {
+    "name": "spr_coin",
+    "path": "sprites/spr_coin/spr_coin.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,12 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_sword_attack","path":"objects/obj_sword_attack/obj_sword_attack.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Game/Enemies.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
 }
